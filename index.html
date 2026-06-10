@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social links profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<style>
+body{
+  background-color: #141414;
+  justify-content: center;
+  margin:0;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.card{
+display: inline-block;
+background-color: #1F1F1F;
+width: fit-content;
+padding: 40px;
+border-radius: 10px;
+text-align: center;
+
+}
+
+.foto{
+  border-radius: 50%;
+  object-fit: cover;
+  width: 135px;
+
+}
+
+.nome{
+color: white;
+font-family: "Inter", sans-serif;
+font-weight: 700;
+margin-bottom: 0;
+}
+
+.localizacao{
+  color: hsl(75, 94%, 57%);
+  font-family: "Inter", sans-serif;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+.descricao{
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+
+}
+
+ul{
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+  width: 100%;
+}
+
+li{
+margin-bottom: 13px;
+
+
+}
+
+a{
+
+display: block;
+background-color: #333333;
+padding: 10px;
+border-radius: 10px;
+text-decoration: none;
+color: white;
+font-family: "Inter", sans-serif;
+transition: 0.3s;
+
+}
+
+a:hover{
+text-decoration: underline;
+transform: scale(1.03);
+background-color: #252525;
+}
+
+</style>
+
+<body>
+  <article class="card">
+     <img class="foto" src="assets/images/minhafoto-removebg-preview.png" alt="Foto de perfil: Luis Felipe Alves">
+    <h1 class="nome"> Luís Felipe Alves</h1>
+    <p class="localizacao">Brasília, Brasil</p>
+    <p class="descricao">Desenvolvedor Front-End em formação</p> 
+    <ul>
+    <li><a href="https://github.com/LuisFelipeAS320" target="_blank">Github</a></li>
+    <li><a href="https://www.frontendmentor.io/profile/LuisFelipeAS320" target="_blank">Frontend Mentor</a></li>
+    <li><a href="https://www.linkedin.com/in/luis-felipe-alves-95ab9b3b4/" target="_blank">Linkedin</a></li>
+    <li><a href="https://www.instagram.com/28luisfelipee/" target="_blank">Instagram</a></li>
+    </ul>
+  </article>
+  
+</body>
+</html>
